@@ -7,7 +7,7 @@ module.exports = {
     author: config.authorName,
     ...config
   },
-  pathPrefix: '/about',
+  pathPrefix: config.pathPrefix,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,

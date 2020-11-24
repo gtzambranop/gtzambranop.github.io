@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Hi! I\'m Tatiana!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Francisco Santos',
@@ -48,7 +48,7 @@ module.exports = {
       duration: null,
       occupation: "Frontend developer",
       description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
+
     },  {
       company: "Lendico",
       begin: {
@@ -58,7 +58,7 @@ module.exports = {
       duration: null,
       occupation: "Frontend developer",
       description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
+
     }, {
       company: "Anapro",
       begin: {
@@ -77,7 +77,7 @@ module.exports = {
       duration: '4 yrs e 3 mos',
       occupation: "Support Technician",
       description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+
     },
   ],
   portifolio: [
@@ -99,8 +99,8 @@ module.exports = {
     github: "https://github.com/santosfrancisco",
     email: "yoshi.df@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://gtzambranop.github.io/',
+  pathPrefix: '', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
