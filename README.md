@@ -98,7 +98,7 @@ Update the configuration file with your data. The configuration file is in ```da
     siteDescription: `Create your online curriculum in just a few minutes with this starter`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
     authorName: 'Francisco Santos',
-    twitterUsername: '_franciscodf',
+    twitterUsername: 'GuiselleZP',
     githubUsername: 'santosfrancisco',
     authorAvatar: '/images/avatar.jpg',
     authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
@@ -189,10 +189,10 @@ Update the configuration file with your data. The configuration file is in ```da
       /* more portifolio items here */
     ],
     social: {
-      twitter: "https://twitter.com/_franciscodf",
-      linkedin: "https://www.linkedin.com/in/santos-francisco",
+      twitter: "https://twitter.com/GuiselleZP",
+      linkedin: "https://www.linkedin.com/in/gtzambranop",
       github: "https://github.com/santosfrancisco",
-      email: "yoshi.df@gmail.com"
+      email: "gtzambranop@unal.edu.co"
     },
     siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
     pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -203,7 +203,7 @@ Update the configuration file with your data. The configuration file is in ```da
     fontColor: "#000000cc",
     enableDarkmode: true, // If true, enables dark mode switch
     display: 'minimal-ui',
-    icon: 'src/assets/gatsby-icon.png',
+    icon: 'src/assets/guiselle_icon.png',
     headerLinks: [
       {
         label: 'Home',

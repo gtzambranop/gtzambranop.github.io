@@ -3,7 +3,7 @@ module.exports = {
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Tatiana Zambrano',
-  twitterUsername: '_franciscodf',
+  twitterUsername: 'GuiselleZP',
   githubUsername: 'gtzambranop',
   authorAvatar: '/images/avatar.jpg',
   authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
@@ -94,8 +94,8 @@ module.exports = {
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
+    twitter: "https://twitter.com/GuiselleZP",
+    linkedin: "https://www.linkedin.com/in/gtzambranop",
     github: "https://github.com/gtzambranop",
     email: "gtzambranop@unal.edu.co"
   },
@@ -108,7 +108,7 @@ module.exports = {
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/giselle_icon.png',
   headerLinks: [
     {
       label: 'Home',
