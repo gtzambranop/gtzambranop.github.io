@@ -18,7 +18,7 @@ Create your resume in a few minutes with this totally responsive starter using R
 - Skills
 - Job experiences
 - Github repositories
-- Portifolio
+- Portfolio
 
 ### Features
 - Responsive Design, optimized for Mobile devices
@@ -175,7 +175,7 @@ Update the configuration file with your data. The configuration file is in ```da
     
       },
     ],
-    portifolio: [
+    portfolio: [
       {
         image: "/images/gatsby-starter-cv.png",
         description: "Gatsby starter CV template",
@@ -186,7 +186,7 @@ Update the configuration file with your data. The configuration file is in ```da
         description: "Responsive grid for ReactJS",
         url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
       },
-      /* more portifolio items here */
+      /* more portfolio items here */
     ],
     social: {
       twitter: "https://twitter.com/GuiselleZP",
@@ -210,8 +210,8 @@ Update the configuration file with your data. The configuration file is in ```da
         url: '/',
       },
       {
-        label: 'Portifolio',
-        url: '/portifolio',
+        label: 'Portfolio',
+        url: '/portfolio',
       }
     ]
   }

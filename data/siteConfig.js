@@ -6,33 +6,33 @@ module.exports = {
   twitterUsername: 'GuiselleZP',
   githubUsername: 'gtzambranop',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Developer, passionate about what I do, I am always experimenting, always learning, and never bored. <br />
+    I love structure and order and I also stand for quality. I also like to work in a team, because that way you learn faster
+    and much more, "Two heads are better than one!" <br />
+    My interests focus on computer science, problem solving, and artificial intelligence.`,
   skills: [
     {
-      name: 'HTML',
+      name: 'Python',
+      level: 80
+    },
+    {
+      name: 'R',
+      level: 60
+    },
+    {
+      name: 'C/C++',
       level: 70
     },
     {
-      name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
+      name: 'Java',
       level: 40
     },
     {
-      name: 'React',
+      name: 'Javascript',
       level: 60
     },
     {
-      name: 'Git',
+      name: 'Bash',
       level: 70
     },
     /* more skills here */
@@ -40,58 +40,40 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Universidad Nacional de Colombia",
       begin: {
-        month: 'sep',
+        month: 'oct',
+        year: '2020'
+      },
+      duration: null,
+      occupation: "Programming assistant student",
+      description: "Currently I am in charge of supporting the students of the diploma in data science, in their learning process in the programming area (in R and Python languages)."
+
+    },
+    {
+      company: "Universidad Nacional de Colombia",
+      begin: {
+        month: 'nov',
         year: '2019'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-
-    },  {
-      company: "Lendico",
-      begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '1 month',
+      occupation: "Programming assistant student",
+      description: "I gave advice in the area of programming, in a basic Python course oriented to data processing."
 
     },
   ],
-  portifolio: [
+  portfolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/ingenio_un.png",
+      description: "Engineering Magazine",
+      url: "https://ingeniofrontend.herokuapp.com/"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/cv_2020.png",
+      description: "Visual computer programs",
+      url: "https://cv-un-2020-ii.github.io/"
     },
-    /* more portifolio items here */
+    /* more portfolio items here */
   ],
   social: {
     twitter: "https://twitter.com/GuiselleZP",
@@ -115,8 +97,8 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
-      url: '/portifolio',
+      label: 'Major Projects',
+      url: '/portfolio',
     }
   ]
 }
