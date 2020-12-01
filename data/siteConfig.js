@@ -108,7 +108,7 @@ module.exports = {
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: 'src/assets/giselle_icon.png',
+  icon: 'src/assets/guiselle_icon.png',
   headerLinks: [
     {
       label: 'Home',
