@@ -12,13 +12,13 @@ exports.onRenderBody = ({ setPreBodyComponents }) => {
     React.createElement('script', {
       dangerouslySetInnerHTML: {
         __html: `
-          (() => {    
-            window.__onThemeChange = function() {};                
-            function setTheme(newTheme) {                  
-              window.__theme = newTheme;                  
-              preferredTheme = newTheme;                  
-              document.body.className = newTheme;                 
-              window.__onThemeChange(newTheme);                
+          (() => {
+            window.__onThemeChange = function() {};
+            function setTheme(newTheme) {
+              window.__theme = newTheme;
+              preferredTheme = newTheme;
+              document.body.className = newTheme;
+              window.__onThemeChange(newTheme);
             }
 
             let preferredTheme
@@ -37,7 +37,7 @@ exports.onRenderBody = ({ setPreBodyComponents }) => {
             darkQuery.addListener(e => {
               window.__setPreferredTheme(e.matches ? 'dark' : 'light')
             })
-            
+
             setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'))
           })()
         `,

@@ -28,16 +28,6 @@ Create your resume in a few minutes with this totally responsive starter using R
 - Dark mode
 - Animations
 
-## 📷 Preview
-
-### Mobile
-
-![Preview mobile](./preview-mobile.gif)
-
-### Desktop
-
-![Preview desktop](./preview-desktop.gif)
-
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
@@ -94,7 +84,7 @@ Update the configuration file with your data. The configuration file is in ```da
 
 ```js
   module.exports = {
-    siteTitle: 'Hi! I\'m Francisco!',
+    siteTitle: 'Hi! I\'m Tatiana!',
     siteDescription: `Create your online curriculum in just a few minutes with this starter`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
     authorName: 'Francisco Santos',
@@ -143,7 +133,7 @@ Update the configuration file with your data. The configuration file is in ```da
         duration: null,
         occupation: "Frontend developer",
         description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-    
+
       },  {
         company: "Lendico",
         begin: {
@@ -153,7 +143,7 @@ Update the configuration file with your data. The configuration file is in ```da
         duration: null,
         occupation: "Frontend developer",
         description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-    
+
       }, {
         company: "Anapro",
         begin: {
@@ -172,7 +162,7 @@ Update the configuration file with your data. The configuration file is in ```da
         duration: '4 yrs e 3 mos',
         occupation: "Support Technician",
         description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-    
+
       },
     ],
     portfolio: [

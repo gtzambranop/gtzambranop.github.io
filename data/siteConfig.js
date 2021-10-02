@@ -1,39 +1,41 @@
 module.exports = {
   siteTitle: 'Hi! I\'m Tatiana!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteDescription: `Online curriculum.`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Tatiana Zambrano',
-  twitterUsername: 'GuiselleZP',
+  twitterUsername: 'gtzambranop',
   githubUsername: 'gtzambranop',
-  authorAvatar: '/images/avatar.jpg',
-  authorDescription: `Developer, passionate about what I do, I am always experimenting, always learning, and never bored. <br />
-    I love structure and order and I also stand for quality. I also like to work in a team, because that way you learn faster
-    and much more, "Two heads are better than one!" <br />
-    My interests focus on computer science, problem solving, and artificial intelligence.`,
+  authorAvatar: '/images/avatar_01.PNG',
+  authorDescription: `Developer, passionate about what I do, I am always experimenting, always learning and never bored.<br/>
+  I love structure and order and I also stand for quality. I also like to work in a team, because that way you learn faster and much more, "Two heads are better than one!"`,
   skills: [
+    {
+      name: 'HTML/CSS',
+      level: 90
+    },
+    {
+      name: 'JavaScript',
+      level: 95
+    },
+    {
+      name: 'Java',
+      level: 55
+    },
     {
       name: 'Python',
       level: 80
     },
     {
-      name: 'R',
-      level: 60
+      name: 'React',
+      level: 75
     },
     {
-      name: 'C/C++',
-      level: 70
+      name: 'Nodejs',
+      level: 85
     },
     {
-      name: 'Java',
-      level: 40
-    },
-    {
-      name: 'Javascript',
-      level: 60
-    },
-    {
-      name: 'Bash',
-      level: 70
+      name: 'Django',
+      level: 65
     },
     /* more skills here */
   ],
@@ -42,24 +44,12 @@ module.exports = {
     {
       company: "Universidad Nacional de Colombia",
       begin: {
-        month: 'oct',
+        month: 'jul',
         year: '2020'
       },
-      duration: null,
-      occupation: "Programming assistant student",
-      description: "Currently I am in charge of supporting the students of the diploma in data science, in their learning process in the programming area (in R and Python languages)."
-
-    },
-    {
-      company: "Universidad Nacional de Colombia",
-      begin: {
-        month: 'nov',
-        year: '2019'
-      },
-      duration: '1 month',
-      occupation: "Programming assistant student",
-      description: "I gave advice in the area of programming, in a basic Python course oriented to data processing."
-
+      duration: '6 months', //or null
+      occupation: "Assistant Monitor",
+      description: "I have learned to control the technical, theoretical and practical tools for data transformation, processing and analysis using the Python and R programming languages."
     },
   ],
   portfolio: [
@@ -76,10 +66,10 @@ module.exports = {
     /* more portfolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/GuiselleZP",
+    twitter: "https://twitter.com/gtzambranop",
     linkedin: "https://www.linkedin.com/in/gtzambranop",
     github: "https://github.com/gtzambranop",
-    email: "gtzambranop@unal.edu.co"
+    email: "gtzp.6174@gmail.com"
   },
   siteUrl: 'https://gtzambranop.github.io/',
   pathPrefix: '', // Note: it must *not* have a trailing slash.
